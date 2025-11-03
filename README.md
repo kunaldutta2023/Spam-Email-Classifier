@@ -4,16 +4,26 @@ The user simply enters a message in the input box, and the system instantly clas
 
 🚀 Live Demo
 
-🔗 Deployed on Render: https://spam-email-classifier-2-zszd.onrender.com
+🚀 Try it here: https://spam-email-classifier-2-zszd.onrender.com
 
-⚙️ Tech Stack
+⚙️ Key Features
 
-Frontend: HTML, CSS
+🧩 Machine Learning Model — Trained using Scikit-learn’s Naive Bayes algorithm
 
-Backend: Flask (Python)
+📊 Text Vectorization — Converts text into numerical features using CountVectorizer
 
-Machine Learning: Scikit-learn (Multinomial Naive Bayes)
+💻 Interactive UI — Simple, fast, and responsive web interface built with HTML & CSS
 
-Model Storage: Pickle (model.pkl and vectorizer.pkl)
+☁️ Cloud Deployment — Hosted on Render for public access
 
-Deployment: Render
+🔒 Offline Model — Uses pre-trained .pkl files for instant predictions
+
+🧰 Technologies Used
+
+Python (Flask, Scikit-learn, Pandas, NumPy)
+
+HTML5, CSS3 for frontend styling
+
+Gunicorn for production server
+
+Render for cloud deployment
